@@ -1,0 +1,152 @@
+ul {
+  border-bottom: none !important; }
+
+.main-slider {
+  width: 100%;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center; }
+  .main-slider__content {
+    color: #000f; }
+  .main-slider__menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0; }
+    .main-slider__menu label {
+      cursor: pointer;
+      display: inline-block;
+      width: 16px;
+      height: 5px;
+      background: #fff;
+      margin: 0 0.2em 1em;
+      transition: all 0.3s ease; }
+      .main-slider__menu label:hover {
+        background: red; }
+  .main-slider .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s; }
+    .main-slider .slide .slider-content {
+      transform: translateY(50%) translateX(180%);
+      width: 450px; }
+      .main-slider .slide .slider-content p {
+        font-size: 15px;
+        margin: 0; }
+      .main-slider .slide .slider-content h3 {
+        font-size: 30px;
+        margin: 0;
+        padding: 15px 0 20px 0; }
+      .main-slider .slide .slider-content a {
+        text-decoration: none;
+        padding: 10px 25px;
+        font-size: 13px;
+        background-color: #000f;
+        color: #fff; }
+  .main-slider .slide-1 {
+    background-image: url("./../../../TheShop-master/PSD_desktop/img_home/img_hbannertop.jpg"); }
+  .main-slider .slide-2 {
+    background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900"); }
+  .main-slider .slide-3 {
+    background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900"); }
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out; }
+
+.blog-hot {
+  text-align: center; }
+  .blog-hot__new {
+    display: flex;
+    justify-content: space-between; }
+    .blog-hot__new--box {
+      width: 100%;
+      height: 100%; }
+      .blog-hot__new--box h3 {
+        font-size: 17px;
+        font-weight: normal;
+        margin: 0;
+        padding: 10px 0 5px 0; }
+      .blog-hot__new--box p {
+        margin: 0;
+        font-size: 10px; }
+  .blog-hot__popular {
+    margin-top: 40px;
+    display: flex; }
+    .blog-hot__popular--produc-hot {
+      width: 70%;
+      text-align: left; }
+      .blog-hot__popular--produc-hot h3 {
+        text-align: left;
+        padding: 0 0 20px 5px;
+        margin: 0;
+        font-weight: normal; }
+      .blog-hot__popular--produc-hot .popular-box {
+        display: flex;
+        padding-right: 20px; }
+        .blog-hot__popular--produc-hot .popular-box .box-hot {
+          width: 33.3%;
+          padding: 5px; }
+          .blog-hot__popular--produc-hot .popular-box .box-hot .title {
+            text-align: center !important;
+            padding: 5px; }
+            .blog-hot__popular--produc-hot .popular-box .box-hot .title h3 {
+              font-size: 13px;
+              font-weight: normal;
+              text-align: center !important;
+              margin: 0;
+              padding: 5px 0; }
+            .blog-hot__popular--produc-hot .popular-box .box-hot .title p {
+              margin: 0;
+              font-size: 11px; }
+    .blog-hot__popular--our {
+      width: 30%;
+      border: 1px solid #888; }
+      .blog-hot__popular--our h3 {
+        margin: 0;
+        padding: 12px;
+        font-weight: normal; }
+      .blog-hot__popular--our .our-trend {
+        padding: 0 30px;
+        text-align: left; }
+        .blog-hot__popular--our .our-trend .box-our {
+          position: relative;
+          margin-bottom: 15px; }
+          .blog-hot__popular--our .our-trend .box-our .our-text {
+            width: 50%;
+            position: absolute;
+            background-color: #fff;
+            right: 0px;
+            bottom: 4px;
+            padding: 10px 0 10px 10px;
+            text-align: left; }
+            .blog-hot__popular--our .our-trend .box-our .our-text h3 {
+              font-size: 12px;
+              font-weight: normal;
+              margin-bottom: 5px;
+              padding: 0; }
+            .blog-hot__popular--our .our-trend .box-our .our-text p {
+              font-size: 9px;
+              font-weight: normal;
+              margin: 0;
+              color: #888; }
+        .blog-hot__popular--our .our-trend .read-more h3 {
+          padding: 0;
+          margin-bottom: 20px;
+          text-align: right;
+          font-size: 13px;
+          font-weight: bold;
+          color: #4e4747; }
+
+/*# sourceMappingURL=home.css.map */
