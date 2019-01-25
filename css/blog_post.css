@@ -1,0 +1,116 @@
+.content {
+  display: flex; }
+  .content__blog {
+    width: 75%;
+    padding: 0 35px 0 0; }
+    .content__blog--box {
+      padding: 20px 0px;
+      border-bottom: 0 !important; }
+      .content__blog--box .title {
+        width: 50%; }
+        .content__blog--box .title h3 {
+          text-transform: uppercase;
+          font-weight: normal;
+          margin-bottom: 10px;
+          margin-top: 0; }
+        .content__blog--box .title .day {
+          font-weight: normal;
+          font-size: 14px;
+          margin-bottom: 8px; }
+      .content__blog--box img {
+        width: 100%;
+        height: 360px; }
+      .content__blog--box .box-content p {
+        color: #c2c2c2;
+        font-size: 13px;
+        line-height: 20px; }
+      .content__blog--box .box-content br {
+        margin-bottom: 20px; }
+    .content__blog--fb-like i {
+      background-color: #1361d4;
+      padding: 2px;
+      border-radius: 2px;
+      margin-top: 2px;
+      font-size: 12px;
+      color: #ffff; }
+      .content__blog--fb-like i span {
+        padding-left: 5px; }
+    .content__blog--reviews {
+      margin-top: 50px; }
+      .content__blog--reviews h3 {
+        font-weight: normal; }
+      .content__blog--reviews .box-reviews {
+        background-color: #eee;
+        padding: 20px;
+        margin-bottom: 10px; }
+        .content__blog--reviews .box-reviews h4 {
+          margin: 0;
+          font-size: 13px; }
+        .content__blog--reviews .box-reviews .content-reviews p {
+          font-size: 13px;
+          color: #888; }
+        .content__blog--reviews .box-reviews .day-rep {
+          display: flex;
+          justify-content: space-between; }
+          .content__blog--reviews .box-reviews .day-rep .day {
+            font-size: 13px;
+            color: #888; }
+          .content__blog--reviews .box-reviews .day-rep .rep {
+            font-size: 13px; }
+      .content__blog--reviews .box-rep {
+        width: 85%; }
+      .content__blog--reviews .write-review {
+        border: 1px solid black;
+        margin-top: 30px;
+        padding: 30px 25px 20px 30px; }
+        .content__blog--reviews .write-review h2 {
+          font-weight: normal;
+          font-size: 18px; }
+        .content__blog--reviews .write-review h4 {
+          margin-bottom: 0;
+          font-weight: normal;
+          font-size: 13px; }
+        .content__blog--reviews .write-review .write-name input {
+          width: 100%;
+          height: 25px; }
+        .content__blog--reviews .write-review .write-text input {
+          width: 100%;
+          height: 65px; }
+        .content__blog--reviews .write-review button {
+          border: none;
+          padding: 9px;
+          font-size: 12px;
+          background-color: #000000;
+          color: #ffff;
+          margin-top: 15px; }
+    .content__blog__sidebar {
+      width: 25%;
+      padding: 20px 0px; }
+      .content__blog__sidebar--categories {
+        border: 1px solid #eee;
+        padding: 20px; }
+        .content__blog__sidebar--categories h3 {
+          font-weight: 100;
+          font-size: 15px; }
+        .content__blog__sidebar--categories ul {
+          padding: 0; }
+          .content__blog__sidebar--categories ul li {
+            list-style: none;
+            padding: 8px 0;
+            text-transform: uppercase;
+            font-size: 13px; }
+      .content__blog__sidebar--labels {
+        border: 1px solid #eee;
+        margin-top: 20px;
+        padding: 20px; }
+        .content__blog__sidebar--labels p {
+          font-size: 13px;
+          line-height: 18px; }
+          .content__blog__sidebar--labels p span {
+            font-size: 16px; }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%; } }
+
+/*# sourceMappingURL=blog_post.css.map */

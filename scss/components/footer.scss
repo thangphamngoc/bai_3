@@ -1,0 +1,159 @@
+//footer //
+.list-menu {
+  display: none;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  h3 {
+    font-size: 13px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 10px;
+    color: #bfb8b8;
+    text-transform: uppercase;
+  }
+
+  .ft-box {
+    width: 35%;
+  }
+  &__about {
+    &--shop {
+      display: flex;
+      height: 200px;
+      .shop-guide {
+        width: 50%;
+      }
+    }
+  }
+  &__twitter {
+    &--text {
+      height: 200px;
+    }
+    &--store {
+      display: flex;
+
+      .store-text {
+        padding-left: 10px;
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+  }
+  &__fb {
+    width: auto !important;
+  }
+}
+.footer-connect {
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  h3 {
+    font-size: 13px;
+  }
+  &__form {
+    display: flex;
+    h3 {
+      font-size: 13px;
+      margin-right: 10px;
+    }
+    input {
+      height: 25px;
+      margin-top: 5px;
+      text-indent: 5px;
+      width: 235px;
+    }
+    i {
+      margin: 4px 0px 0px -15px;
+      color: #888;
+      font-size: 30px;
+    }
+  }
+  &__connect-us {
+    display: flex;
+    align-items: center;
+    h3 {
+      margin-right: 10px;
+    }
+    i {
+      padding: 4px 6px;
+      background-color: #333;
+      color: baclk;
+      color: #000000;
+      border-radius: 50%;
+      font-size: 12px;
+
+      &:not(:last-child) {
+        margin-right: 6px;
+      }
+    }
+  }
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    p {
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #888;
+    }
+  }
+  &__right {
+    display: flex;
+    i {
+      font-size: 30px;
+      align-items: center;
+      display: flex;
+
+      color: #333;
+      &:not(:last-child) {
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+@media only screen and(min-width: 760px) and (max-width: 1028px) {
+  .footer-content {
+    display: none;
+  }
+  .footer-connect{
+    border-top: 1px solid;
+    &__connect-us{
+      h3{display: none}
+    }
+  }
+  .list-menu {
+    display: block;
+    padding: 20px 0;
+    text-align: left;
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        font-size: 13px;
+        padding: 0 10px;
+        border-right: 1px solid;
+        color: #888;
+        &:first-child{
+          padding-left:0!important; 
+        }
+        &:last-child{
+          border: 0;
+        }
+      }
+    }
+  }
+}

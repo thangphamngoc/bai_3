@@ -1,0 +1,24 @@
+<div class="content__sidebar">
+					<div class="content__sidebar--categories">
+						<h3>CATEGORIES</h3>
+						<ul>
+							<li>Celebrity Style (39)</li>
+							<li>Celebrity Style (39)</li>
+							<li>Celebrity Style (39)</li>
+							<li>Celebrity Style (39)</li>
+						</ul>
+					</div>
+					<div class="content__sidebar--labels">
+						<h3>LABELS</h3>
+						<p>ALAÏA ALEXA CHUNG <span>ALEXANDER</span> WANG BAGS BALENCIAGA BASICS BEAUTY BELTS BLOGGERS BOOTS BRACELETS
+							BRIGHTS
+							BURBERRY BUTTON CAROLINE ISSA CAROLINE SIEBER CHLOÉ CLUTCH CÉLINE DARIA "DASHA" ZHUKOVA DIANE KRUGER
+							DRESSEARRINGS EDITOR STYLE EDITORIALS<span>CLASSIC</span> ELIZABETH + JAMES FLORAL FUR GAIA REPOSSI GIORGIA
+							TORDINI
+							GIOVANNA BATTAGLIAGIUSEPPE ZANOTTI GIVENCHY GUCCI GUINEVERE VAN SEENUS GWEN STEFANI GÉRALDINE SAGLIO HATS HEELS
+							HOME DESIGN<span>INSPIRATION</span>INSTAGRAM ISABEL MARANT <span>JACKET/COAT</span> KATE MOSS ARKUS LUPFER
+							METALLICS MIRANDA
+							KERRMIROSLAV personal post PLATSCHOULER PYTHON RINGS<span>SNEAKERS</span>STREET STYLE SUNGLASSES SWEATER TEXTILE
+							ELIZABETH + JAMES THE ROW THEORY THEYSKENS' THEORY TOPS VEST</p>
+					</div>
+				</div>

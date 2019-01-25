@@ -1,0 +1,69 @@
+* {
+  font-family: Myriad Pro; }
+  * h3 {
+    font-family: serif; }
+
+.content {
+  display: flex; }
+  .content__blog {
+    width: 75%;
+    padding: 0 35px 0 0; }
+    .content__blog--box {
+      padding: 20px 0px; }
+      .content__blog--box .title {
+        width: 50%; }
+        .content__blog--box .title h3 {
+          text-transform: uppercase;
+          font-weight: normal;
+          margin-bottom: 10px; }
+        .content__blog--box .title .day {
+          font-weight: normal;
+          font-size: 14px;
+          margin-bottom: 8px; }
+      .content__blog--box img {
+        width: 100%;
+        height: 360px; }
+      .content__blog--box .box-content p {
+        color: #c2c2c2;
+        font-size: 15px; }
+      .content__blog--box:not(:last-child) {
+        border-bottom: 2px solid #000000; }
+    .content__blog--older {
+      display: flex;
+      justify-content: flex-end; }
+      .content__blog--older p {
+        font-size: 13px; }
+        .content__blog--older p i {
+          padding-left: 10px; }
+  .content__sidebar {
+    width: 25%;
+    padding: 20px 0px; }
+    .content__sidebar--categories {
+      border: 1px solid #eee;
+      padding: 20px; }
+      .content__sidebar--categories h3 {
+        font-weight: 100;
+        font-size: 15px; }
+      .content__sidebar--categories ul {
+        padding: 0; }
+        .content__sidebar--categories ul li {
+          list-style: none;
+          padding: 8px 0;
+          text-transform: uppercase;
+          font-size: 13px; }
+    .content__sidebar--labels {
+      border: 1px solid #eee;
+      margin-top: 20px;
+      padding: 20px; }
+      .content__sidebar--labels p {
+        font-size: 10px;
+        font-family: Tahoma !important;
+        line-height: 18px; }
+        .content__sidebar--labels p span {
+          font-size: 18px; }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%; } }
+
+/*# sourceMappingURL=blog.css.map */

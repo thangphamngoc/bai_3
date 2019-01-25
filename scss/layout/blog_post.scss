@@ -1,0 +1,329 @@
+
+// content //
+.content {
+  display: flex;
+  &__blog {
+    width: 75%;
+    padding: 0 35px 0 0;
+    &--box {
+      padding: 20px 0px;
+      border-bottom:0!important; 
+      .title {
+        width: 50%;
+        h3 {
+          text-transform: uppercase;
+          font-weight: normal;
+          margin-bottom: 10px;
+          margin-top: 0;
+        }
+        .day {
+          font-weight: normal;
+          font-size: 14px;
+          margin-bottom: 8px;
+        }
+      }
+      img {
+        width: 100%;
+        height: 360px;
+      }
+      .box-content {
+        p {
+          color: #c2c2c2;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        br{
+          margin-bottom:20px; 
+        }
+      }
+    }
+    &--fb-like {
+      i {
+        background-color: #1361d4;
+        padding: 2px;
+        border-radius: 2px;
+        margin-top: 2px;
+        font-size: 12px;
+        color: #ffff;
+        span {
+          padding-left: 5px;
+        }
+      }
+    }
+    &--reviews {
+      margin-top: 50px;
+      h3 {
+        font-weight: normal;
+      }
+      .box-reviews {
+        background-color: #eee;
+        padding: 20px;
+        margin-bottom: 10px;
+        h4 {
+          margin: 0;
+          font-size: 13px;
+        }
+        .content-reviews {
+          p {
+            font-size: 13px;
+            color: #888;
+          }
+        }
+        .day-rep {
+          display: flex;
+          justify-content: space-between;
+          .day {
+            font-size: 13px;
+            color: #888;
+          }
+          .rep {
+            font-size: 13px;
+          }
+        }
+      }
+      .box-rep {
+        width: 85%;
+      }
+
+      .write-review {
+        border: 1px solid black;
+        margin-top: 30px;
+        padding: 30px 25px 20px 30px;
+        h2 {
+          font-weight: normal;
+          font-size: 18px;
+        }
+        h4 {
+          margin-bottom: 0;
+          font-weight: normal;
+          font-size: 13px;
+        }
+        .write-name {
+          input {
+            width: 100%;
+            height: 25px;
+          }
+        }
+        .write-text {
+          input {
+            width: 100%;
+            height: 65px;
+          }
+        }
+        button {
+          border: none;
+          padding: 9px;
+          font-size: 12px;
+          background-color: #000000;
+          color: #ffff;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    &__sidebar {
+      width: 25%;
+      padding: 20px 0px;
+      &--categories {
+        border: 1px solid #eee;
+        padding: 20px;
+        h3 {
+          font-weight: 100;
+          font-size: 15px;
+        }
+        ul {
+          padding: 0;
+          li {
+            list-style: none;
+            padding: 8px 0;
+            text-transform: uppercase;
+            font-size: 13px;
+          }
+        }
+      }
+      &--labels {
+        border: 1px solid #eee;
+        margin-top: 20px;
+        padding: 20px;
+        p {
+          font-size: 13px;
+          line-height: 18px;
+          span {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//end desktop //
+
+//responsive //
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+//header//
+// .header {
+//     &__right {
+//       ul {
+//         li {
+//         }
+//       }
+//     }
+//     h3 {
+//     }
+//     &__left {
+//       ul {
+//         li {
+//         }
+//       }
+//     }
+//   }
+//   //header-top//
+//   .header-top {
+//     &__logo {
+//       &--text {
+//         h1 {
+//         }
+//       }
+//       &--right {
+//         a {
+//           i {
+//           }
+//           span {
+//           }
+//         }
+//       }
+//     }
+//   }
+//   //menu//
+//   .header-menu {
+//     ul {
+//       li {
+//       }
+//     }
+//     &__icon {
+//       i {
+//       }
+//     }
+//   }
+//   //navigation//
+//   .navigation {
+//     a {
+//     }
+//   }
+//   // content //
+//   .content {
+//     &__blog {
+//       &--box {
+//         .title {
+//           h3 {
+//           }
+//           .day {
+//           }
+//         }
+//         img {
+//         }
+//         .box-content {
+//           p {
+//           }
+//         }
+//       }
+//       &--older {
+//         p {
+//         }
+//       }
+//     }
+//     &__sidebar {
+//       &--categories {
+//         ul {
+//           li {
+//           }
+//         }
+//       }
+//       &--labels {
+//         p {
+//         }
+//       }
+//     }
+//   }
+//   //top-brands //
+//   .top-brands {
+//     h3 {
+//     }
+//     &__img {
+//     }
+//     &__ranking {
+//       &--top {
+//         .number {
+//         }
+//         .text {
+//         }
+//       }
+//     }
+//   }
+//   //footer //
+//   .footer-content {
+//     &__about {
+//       &--shop {
+//         .shop-guide {
+//           p {
+//           }
+//         }
+//         .help {
+//           p {
+//           }
+//         }
+//       }
+//       &--us {
+//         h3 {
+//         }
+//         p {
+//         }
+//       }
+//     }
+//     &__twitter {
+//       &--store {
+//         img {
+//         }
+//         .store-text {
+//           p {
+//           }
+//         }
+//       }
+//     }
+//     &__fb {
+//       h3 {
+//       }
+//       img {
+//       }
+//     }
+//     .footer-connect {
+//       &__form {
+//         p {
+//         }
+//         input {
+//         }
+//         i {
+//         }
+//       }
+//       &__connec-us {
+//         i {
+//         }
+//       }
+//     }
+//     .footer-bottom {
+//       &__left {
+//         p {
+//         }
+//       }
+//       &__right {
+//         p {
+//         }
+//       }
+//     }
+//   }

@@ -1,0 +1,22 @@
+
+// 2. Vendors
+@import './vendors/normalize.scss';
+// layout//
+
+@import './layout/blog.scss';
+@import './layout/blog_post.scss';
+@import './layout/cart.scss';
+@import './layout/home.scss';
+@import './layout/category.scss';
+//1.base //
+@import './base/base.scss';
+
+//componants//
+@import './components/footer.scss';
+@import './components/header_menu.scss';
+@import './components/header_nav.scss';
+@import './components/header_top.scss';
+@import './components/navigation.scss';
+@import './components/top_brands.scss';
+@import './components/sidebar_mb.scss';
+

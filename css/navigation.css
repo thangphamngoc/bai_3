@@ -1,0 +1,12 @@
+.navigation {
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between; }
+  .navigation a {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px 0; }
+    .navigation a i {
+      margin-right: 5px; }
+
+/*# sourceMappingURL=navigation.css.map */

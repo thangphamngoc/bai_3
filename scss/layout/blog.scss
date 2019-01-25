@@ -1,0 +1,262 @@
+//header//
+*{
+  font-family: Myriad Pro;
+  h3 {
+    font-family: serif;
+  }
+}
+// content //
+.content {
+  display: flex;
+  &__blog {
+    width: 75%;
+    padding: 0 35px 0 0;
+    &--box {
+      
+      padding: 20px 0px;
+      .title {
+        width: 50%;
+        h3 {
+          text-transform: uppercase;
+          font-weight: normal;
+          margin-bottom: 10px;
+        }
+        .day {
+          font-weight: normal;
+          font-size: 14px;
+          margin-bottom: 8px;
+        }
+      }
+      img {
+        width: 100%;
+        height: 360px;
+      }
+      .box-content {
+        p {
+          color: #c2c2c2;
+          font-size: 15px;
+        }
+      }
+
+      &:not(:last-child){
+        border-bottom: 2px solid #000000;
+      }
+    }
+    &--older {
+      display: flex;
+      justify-content: flex-end;
+      p {
+        font-size: 13px;
+        i {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+  &__sidebar {
+    
+    width: 25%;
+    padding: 20px 0px;
+    &--categories {
+      border: 1px solid #eee;
+      padding: 20px;
+      h3 {
+        font-weight: 100;
+        font-size: 15px;
+      }
+      ul {
+        padding: 0;
+        li {
+          list-style: none;
+          padding: 8px 0;
+          text-transform: uppercase;
+          font-size: 13px;
+        }
+      }
+    }
+    &--labels {
+      border: 1px solid #eee;
+      margin-top: 20px;
+      padding: 20px;
+      p {
+        font-size: 10px;
+        font-family: Tahoma!important;
+        line-height: 18px;
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+//top-brands //
+
+//end desktop //
+
+//responsive //
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+//header//
+// .header {
+//     &__right {
+//       ul {
+//         li {
+//         }
+//       }
+//     }
+//     h3 {
+//     }
+//     &__left {
+//       ul {
+//         li {
+//         }
+//       }
+//     }
+//   }
+//   //header-top//
+//   .header-top {
+//     &__logo {
+//       &--text {
+//         h1 {
+//         }
+//       }
+//       &--right {
+//         a {
+//           i {
+//           }
+//           span {
+//           }
+//         }
+//       }
+//     }
+//   }
+//   //menu//
+//   .header-menu {
+//     ul {
+//       li {
+//       }
+//     }
+//     &__icon {
+//       i {
+//       }
+//     }
+//   }
+//   //navigation//
+//   .navigation {
+//     a {
+//     }
+//   }
+//   // content //
+//   .content {
+//     &__blog {
+//       &--box {
+//         .title {
+//           h3 {
+//           }
+//           .day {
+//           }
+//         }
+//         img {
+//         }
+//         .box-content {
+//           p {
+//           }
+//         }
+//       }
+//       &--older {
+//         p {
+//         }
+//       }
+//     }
+//     &__sidebar {
+//       &--categories {
+//         ul {
+//           li {
+//           }
+//         }
+//       }
+//       &--labels {
+//         p {
+//         }
+//       }
+//     }
+//   }
+//   //top-brands //
+//   .top-brands {
+//     h3 {
+//     }
+//     &__img {
+//     }
+//     &__ranking {
+//       &--top {
+//         .number {
+//         }
+//         .text {
+//         }
+//       }
+//     }
+//   }
+//   //footer //
+//   .footer-content {
+//     &__about {
+//       &--shop {
+//         .shop-guide {
+//           p {
+//           }
+//         }
+//         .help {
+//           p {
+//           }
+//         }
+//       }
+//       &--us {
+//         h3 {
+//         }
+//         p {
+//         }
+//       }
+//     }
+//     &__twitter {
+//       &--store {
+//         img {
+//         }
+//         .store-text {
+//           p {
+//           }
+//         }
+//       }
+//     }
+//     &__fb {
+//       h3 {
+//       }
+//       img {
+//       }
+//     }
+//     .footer-connect {
+//       &__form {
+//         p {
+//         }
+//         input {
+//         }
+//         i {
+//         }
+//       }
+//       &__connec-us {
+//         i {
+//         }
+//       }
+//     }
+//     .footer-bottom {
+//       &__left {
+//         p {
+//         }
+//       }
+//       &__right {
+//         p {
+//         }
+//       }
+//     }
+//   }
