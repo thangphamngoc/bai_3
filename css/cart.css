@@ -179,14 +179,69 @@
         text-decoration: none;
         padding: 5px 110px; }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 759px) {
   .container {
     width: 100%; }
 
   .cart-top__product {
     display: none; }
   .cart-top__mbproduct {
-    display: block; } }
+    display: block;
+    display: flex; }
+    .cart-top__mbproduct h3 {
+      margin: 0;
+      font-weight: normal;
+      font-size: 13px;
+      padding: 15px 0 15px 30px; }
+    .cart-top__mbproduct p {
+      margin: 0; }
+    .cart-top__mbproduct .product-row-1 {
+      display: flex;
+      background-color: #eee;
+      height: 145px;
+      margin-bottom: 15px;
+      position: relative; }
+    .cart-top__mbproduct--avatar {
+      width: 100%; }
+      .cart-top__mbproduct--avatar img {
+        display: flex;
+        background-color: #eee;
+        padding: 15px 15px 15px 30px; }
+      .cart-top__mbproduct--avatar .avt-text {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+        position: relative; }
+        .cart-top__mbproduct--avatar .avt-text p {
+          margin: 0;
+          padding-bottom: 10px; }
+        .cart-top__mbproduct--avatar .avt-text span {
+          margin-right: 15px; }
+        .cart-top__mbproduct--avatar .avt-text a {
+          position: absolute;
+          bottom: 0;
+          padding-bottom: 15px;
+          color: #000f;
+          font-weight: normal; }
+        .cart-top__mbproduct--avatar .avt-text .quantity-mb {
+          display: flex;
+          margin-top: 10px;
+          align-items: center;
+          justify-content: space-between; }
+          .cart-top__mbproduct--avatar .avt-text .quantity-mb p {
+            padding: 0; }
+          .cart-top__mbproduct--avatar .avt-text .quantity-mb .number {
+            padding: 6px 10px;
+            border: 1px solid #888;
+            background: #ffff; }
+      .cart-top__mbproduct--avatar .avt-close {
+        padding-top: 15px;
+        right: 10px;
+        position: absolute; }
+    .cart-top__mbproduct--price {
+      width: 20%; }
+      .cart-top__mbproduct--price p {
+        padding: 15px 0 0 30px; } }
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
   .cart-top {
     margin-top: 30px !important; }

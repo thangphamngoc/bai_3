@@ -114,8 +114,39 @@
 							</div>
 							<div class="avt-text">
 								<p>DETAILED SWING DRESS</p>
-								<p>COLOR: BLUE</p>
-								<p>SIZE: 12</p>
+								<span>COLOR: BLUE</span>
+								<span>SIZE: 12</span>
+							<div class="quantity-mb">
+								<p>QTY:</p>
+								<p class="number">1</p>
+								<i class="fa fa-refresh" aria-hidden="true"></i>
+
+								<p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
+							</div>
+
+
+								<a href="#">Edit item</a>
+
+							</div>
+							<div class="avt-close"><i class="fa fa-times" aria-hidden="true"></i></div>
+						</div>
+						<div class="product-row-1">
+							<div class="avt">
+								<img src="../img/img_cproduc1.jpg">
+							</div>
+							<div class="avt-text">
+								<p>DETAILED SWING DRESS</p>
+								<span>COLOR: BLUE</span>
+								<span>SIZE: 12</span>
+							<div class="quantity-mb">
+								<p>QTY:</p>
+								<p class="number">1</p>
+								<i class="fa fa-refresh" aria-hidden="true"></i>
+
+								<p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
+							</div>
+
+
 								<a href="#">Edit item</a>
 
 							</div>
