@@ -43,10 +43,12 @@
       display: block; }
       .header-top__logo--right {
         padding: 0;
-        width: 90%;
+        width: 85%;
         display: flex;
         justify-content: space-between; }
         .header-top__logo--right a:first-child {
-          padding: 6px 10px; } }
+          padding: 6px 10px; }
+        .header-top__logo--right a:last-child {
+          display: none; } }
 
 /*# sourceMappingURL=header_top.css.map */

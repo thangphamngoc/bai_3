@@ -99,6 +99,8 @@
             padding: 8px 0;
             text-transform: uppercase;
             font-size: 13px; }
+        .content__blog__sidebar--categories .icon-toggle {
+          display: none; }
       .content__blog__sidebar--labels {
         border: 1px solid #eee;
         margin-top: 20px;
@@ -109,8 +111,66 @@
           .content__blog__sidebar--labels p span {
             font-size: 16px; }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .container {
-    width: 100%; } }
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .content {
+    flex-direction: column-reverse; }
+    .content__sidebar {
+      width: 100%; }
+      .content__sidebar--labels {
+        display: none; }
+      .content__sidebar--categories {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 5px 5px 15px; }
+        .content__sidebar--categories h3 {
+          margin: 0; }
+        .content__sidebar--categories ul {
+          display: none; }
+        .content__sidebar--categories .icon-toggle {
+          display: flex;
+          font-size: 11px; }
+          .content__sidebar--categories .icon-toggle i {
+            padding: 3px;
+            border: 1px solid #eee; }
+    .content__blog {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0; }
+      .content__blog--box .title {
+        width: 100%; } }
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+  .navigation a {
+    display: none; }
+
+  .content {
+    flex-direction: column-reverse; }
+    .content__sidebar {
+      width: 100%; }
+      .content__sidebar--labels {
+        display: none; }
+      .content__sidebar--categories {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 5px 5px 15px; }
+        .content__sidebar--categories h3 {
+          margin: 0; }
+        .content__sidebar--categories ul {
+          display: none; }
+        .content__sidebar--categories .icon-toggle {
+          display: flex;
+          font-size: 11px; }
+          .content__sidebar--categories .icon-toggle i {
+            padding: 3px;
+            border: 1px solid #eee; }
+    .content__blog {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0; }
+      .content__blog--box .title {
+        width: 100%; }
+      .content__blog--box img {
+        height: 200px; } }
 
 /*# sourceMappingURL=blog_post.css.map */

@@ -163,6 +163,7 @@
 							<li>Celebrity Style (39)</li>
 							<li>Celebrity Style (39)</li>
 						</ul>
+						<div class="icon-toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
 					</div>
 					<div class="content__sidebar--labels">
 						<h3>LABELS</h3>
@@ -185,6 +186,7 @@
         
 			<?php require('../layout/top_brands.php') ?>
 			<?php require('../layout/footer.php') ?>
+			<?php require('../layout/sidebar_mb.php') ?>
 		</div>
 	</div>
 </body>

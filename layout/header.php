@@ -16,5 +16,10 @@
                         <li><a>LOG IN</a></li>
                     </ul>
                 </div>
+                <div class="header-nav__cart-top">
+                <a>
+					<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+							CART
+				</a></div>
             </div>
     </header>

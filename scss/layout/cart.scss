@@ -1,7 +1,7 @@
 
 // content //
 
-.cart {
+.cart-top {
   border: 1px solid #888;
   &__title {
     text-align: center;
@@ -51,6 +51,8 @@
           position: absolute;
           bottom: 0;
           padding-bottom: 15px;
+          color: #000f;
+    font-weight: normal;
         }
       }
       .avt-close {
@@ -86,6 +88,8 @@
         a {
           font-size: 12px;
           padding: 5px 0 0 15px;
+          color: #000f;
+    font-weight: normal;
         }
       }
     }
@@ -96,6 +100,12 @@
       }
     }
   }
+  &__mbproduct{
+    display: none;
+  }
+}
+.cart-get{
+
   &__pay {
     h3 {
       margin: 0;
@@ -104,11 +114,13 @@
     }
     display: flex;
     margin-top: 20px;
+.group-pay{width: 65%;
 
-    &--delivery {
+  .pay-top{display: flex;
+    &__delivery {
       border: 1px solid #888;
-      width: 35%;
-      padding: 15px 30px;
+      width: 60%;
+    padding: 15px 20px;
       h3 {
         span {
           display: block;
@@ -143,9 +155,9 @@
         }
       }
     }
-    &--voucher {
+    &__voucher {
       margin: 0px 15px;
-      width: 25%;
+      width: 40%;
       .voucher-seach {
         border: 1px solid;
         padding: 15px 20px;
@@ -154,6 +166,7 @@
           input {
             height: 25px;
             text-indent: 10px;
+            width: 100%;
           }
           i {
             margin: 6px 0 0 -15px;
@@ -169,9 +182,33 @@
         }
       }
     }
-    &--total {
-      width: 35%;
-      border: 1px solid;
+  }
+
+
+    &__check {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
+      a {
+        padding: 5px 80px;
+        font-size: 13px;
+      }
+      .continue {
+        border: 1px solid #888;
+      }
+      a:last-child {
+        background-color: #000f;
+        color: #ffff;
+        text-decoration: none;
+        padding: 5px 110px;
+        margin-right: 30px;
+      }
+    }
+  }
+
+.group-pay-right{width: 35%;
+
+    &__total {
       padding: 15px 30px;
       h3 {
         padding: 0;
@@ -189,26 +226,29 @@
         border-top: 1px solid;
       }
     }
-  }
+  
+
   &__check {
     display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
+    justify-content: center;
+    margin-top: 60px;
     a {
       padding: 5px 80px;
       font-size: 13px;
     }
     .continue {
       border: 1px solid #888;
+      display: none;
     }
     a:last-child {
       background-color: #000f;
       color: #ffff;
       text-decoration: none;
       padding: 5px 110px;
-      margin-right: 30px;
     }
   }
+}
+}
 }
 
 
@@ -219,7 +259,69 @@
   .container {
     width: 100%;
   }
+  .cart-top{
+  &__product{
+    display: none;
+  }
+
+    &__mbproduct{
+    display: block;
+    }
+
+  }
+  
 }
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .cart-top{
+    margin-top: 30px!important;
+  }
+  .cart-get{
+    &__pay{
+      .group-pay{    width: 50%;
+     .pay-top{
+       display: block;
+       &__delivery{
+        width: auto;
+       }
+      &__voucher{
+        width: 100%;
+        margin: 10px 0 0 0;
+
+        .voucher-help{
+          display: none;
+        }
+
+      }
+    }
+      &__check{
+        display: none;
+      }
+     }
+
+        
+      }
+      .group-pay-right{
+        width: 50%;
+        &__check{
+          display: block;
+          margin: 0;
+          padding: 30px;
+
+          .continue{
+            display: block;
+          }
+          a{
+            display: block;
+            &:last-child{
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+
 //header//
 // .header {
 //     &__right {
