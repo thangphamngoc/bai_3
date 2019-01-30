@@ -2062,6 +2062,8 @@ ul {
             justify-content: center; }
       .my-account__detail-account .order-content__box-order .row-bottom {
         justify-content: space-between; }
+    .my-account__detail-account .order-content .order-mb {
+      display: none; }
     .my-account__detail-account .order-content__detail-product {
       margin: 0 auto;
       width: 80%; }
@@ -2124,7 +2126,48 @@ ul {
     .my-account__detail-account .title h3 {
       border-bottom: 1px solid #ddd; }
   .my-account__detail-account .order-content {
-    width: 100%; } }
+    width: 100%; }
+    .my-account__detail-account .order-content__box-order {
+      display: none; }
+    .my-account__detail-account .order-content .order-mb {
+      display: block; }
+    .my-account__detail-account .order-content__detail-product .price,
+    .my-account__detail-account .order-content__detail-product .quantity {
+      display: none; }
+    .my-account__detail-account .order-content__detail-product .product {
+      width: 80%; }
+    .my-account__detail-account .order-content__detail-product .title-product,
+    .my-account__detail-account .order-content__detail-product .product-content {
+      justify-content: space-between; }
+    .my-account__detail-account .order-content__detail-product .total {
+      width: 70%;
+      margin-left: 30%; }
+    .my-account__detail-account .order-content .order-mb {
+      display: block; }
+      .my-account__detail-account .order-content .order-mb .box-number {
+        width: 30%;
+        display: block; }
+        .my-account__detail-account .order-content .order-mb .box-number h4,
+        .my-account__detail-account .order-content .order-mb .box-number p {
+          padding: 0; }
+      .my-account__detail-account .order-content .order-mb .box-status {
+        width: 30%;
+        display: flex;
+        align-items: center; }
+      .my-account__detail-account .order-content .order-mb .box-total {
+        width: 30%;
+        display: flex;
+        align-items: center; }
+      .my-account__detail-account .order-content .order-mb .box-detail {
+        width: 10%; }
+      .my-account__detail-account .order-content .order-mb .order-row1 {
+        padding: 8px 5px; }
+      .my-account__detail-account .order-content .order-mb .title-order {
+        padding: 0 5px; }
+      .my-account__detail-account .order-content .order-mb .row-bottom {
+        padding: 15px 5px; }
+        .my-account__detail-account .order-content .order-mb .row-bottom .box-number {
+          width: 90%; } }
 .container {
   width: 65%;
   margin: 0 auto; }

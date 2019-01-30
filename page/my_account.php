@@ -91,7 +91,81 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div>  
+
+
+
+
+
+
+                    <div class="order-content__box-order order-mb">
+                        <div class="title-order">
+                           <div class="title-order__number box-number">
+                                <h4>ORDER#</h4>
+                                <h4>DATE</h4>
+                           </div>
+                   
+                           <div class="title-order__status box-status">
+                                <h4>STATUS</h4>
+                           </div>
+                           <div class="title-order__total box-total">
+                                <h4>TOTAL</h4>
+                           </div>
+                           <div class="title-order__detail box-detail">
+                           </div>
+                        </div>
+                        <div class="order-row1">
+                            <div class="box-number">
+                                <p>FN9133137</p>
+                                <p>04/10/2014</p>
+                            </div>
+                        
+                            <div class="box-status">
+                                <p>DESPATCHED</p>
+                            </div>
+                            <div class="box-total">
+                                <p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
+                            </div>
+                            <div class="box-detail">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="order-row1">
+                            <div class="box-number">
+                                <p>FN9133137</p>
+                                <p>04/10/2014</p>
+                            </div>
+                        
+                            <div class="box-status">
+                                <p>DESPATCHED</p>
+                            </div>
+                            <div class="box-total">
+                                <p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
+                            </div>
+                            <div class="box-detail">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+
+
+                        <div class="order-row1 row-bottom">
+                        <div class="box-number">
+                                <p>ORDER NUMBER #FN9133137</p>
+                            </div>
+                            <div class="box-detail">
+                                <a href="#">X</a>
+                            </div>
+
+                        </div>
+                    </div>  
+
+
+
+
+
+
+
+
                     <div class="order-content__detail-product">
                         <div class="title-product">
                             <div class="product">
@@ -148,6 +222,9 @@
                             </div>
                         </div>
                     </div>
+
+
+
                     <div class="order-content__box-order">
                         <div class="order-row1">
                             <div class="box-number">
@@ -185,7 +262,43 @@
                         </div>                     
                 
                     </div>
-    </div>
+
+                    <div class="order-content__box-order order-mb">
+                
+                        <div class="order-row1">
+                            <div class="box-number">
+                                <p>FN9133137</p>
+                                <p>04/10/2014</p>
+                            </div>
+                        
+                            <div class="box-status">
+                                <p>DESPATCHED</p>
+                            </div>
+                            <div class="box-total">
+                                <p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
+                            </div>
+                            <div class="box-detail">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+                        <div class="order-row1">
+                            <div class="box-number">
+                                <p>FN9133137</p>
+                                <p>04/10/2014</p>
+                            </div>
+                        
+                            <div class="box-status">
+                                <p>DESPATCHED</p>
+                            </div>
+                            <div class="box-total">
+                                <p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
+                            </div>
+                            <div class="box-detail">
+                                <a href="#">+</a>
+                            </div>
+                        </div>
+</div>
+        </div>
                     
                 </div>
 
