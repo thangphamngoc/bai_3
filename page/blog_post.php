@@ -20,11 +20,11 @@
 		<?php require('../layout/header_menu.php') ?>
 		<?php require('../layout/navigation.php') ?>
 
-        <div class="container content">
+        <div class="container content blog-post">
 				<div class="content__blog">
 					<div class="content__blog--box">
 						<div class="title">
-							<h3>what’s the best beauty look to wear with a metallic?</h3>
+							<h3 >  what’s the best beauty look to wear with a metallic?</h3>
 							<h4 class="day">11January 2015</h4>
 						</div>
 						<img src="../img/img2.jpg">
@@ -148,14 +148,14 @@
 								<h4>REVIEW TEXT</h4>
 								<input type="text">
 							</div>
-							<button>SUBMIT REVEIW</button>
+					<div class="submit"><a>SUBMIT REVEIW</a></div>		
 						</div>
 
 
 					</div>
 				</div>
 				<div class="content__sidebar">
-					<div class="content__sidebar--categories">
+					<div class= "blog-post-sidebar">
 						<h3>CATEGORIES</h3>
 						<ul>
 							<li>Celebrity Style (39)</li>
@@ -167,15 +167,15 @@
 					</div>
 					<div class="content__sidebar--labels">
 						<h3>LABELS</h3>
-						<p>ALAÏA ALEXA CHUNG <span>ALEXANDER</span> WANG BAGS BALENCIAGA BASICS BEAUTY BELTS BLOGGERS BOOTS BRACELETS
+						<p>ALAÏA ALEXA CHUNG <span class="font12"> ALEXANDER </span> WANG BAGS BALENCIAGA <span class="font14"> BASICS </span> BEAUTY BELTS BLOGGERS BOOTS BRACELETS
 							BRIGHTS
-							BURBERRY BUTTON CAROLINE ISSA CAROLINE SIEBER CHLOÉ CLUTCH CÉLINE DARIA "DASHA" ZHUKOVA DIANE KRUGER
-							DRESSEARRINGS EDITOR STYLE EDITORIALS<span>CLASSIC</span> ELIZABETH + JAMES FLORAL FUR GAIA REPOSSI GIORGIA
+							BURBERRY BUTTON <span class="font12"> CAROLINE </span> ISSA CAROLINE SIEBER CHLOÉ <span class="font18"> CLUTCH </span> CÉLINE DARIA "DASHA" ZHUKOVA DIANE KRUGER
+							DRESSEARRINGS EDITOR STYLE EDITORIALS<span class="font14"> CLASSIC </span> ELIZABETH + JAMES FLORAL FUR GAIA REPOSSI GIORGIA
 							TORDINI
-							GIOVANNA BATTAGLIAGIUSEPPE ZANOTTI GIVENCHY GUCCI GUINEVERE VAN SEENUS GWEN STEFANI GÉRALDINE SAGLIO HATS HEELS
-							HOME DESIGN<span>INSPIRATION</span>INSTAGRAM ISABEL MARANT <span>JACKET/COAT</span> KATE MOSS ARKUS LUPFER
+							GIOVANNA BATTAGLIAGIUSEPPE <span class="font18"> ZANOTTI </span> GIVENCHY GUCCI GUINEVERE VAN SEENUS GWEN STEFANI GÉRALDINE SAGLIO HATS HEELS
+							HOME DESIGN<span> INSPIRATION </span>INSTAGRAM ISABEL MARAN	T <span class="font18"> JACKET/COAT </span> KATE MOSS ARKUS LUPFER
 							METALLICS MIRANDA
-							KERRMIROSLAV personal post PLATSCHOULER PYTHON RINGS<span>SNEAKERS</span>STREET STYLE SUNGLASSES SWEATER TEXTILE
+							KERRMIROSLAV personal post PLATSCHOULER PYTHON RINGS<span class="font14"> SNEAKERS </span>STREET STYLE SUNGLASSES SWEATER TEXTILE
 							ELIZABETH + JAMES THE ROW THEORY THEYSKENS' THEORY TOPS VEST</p>
 					</div>
 				</div>

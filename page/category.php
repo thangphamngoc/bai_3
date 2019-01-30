@@ -7,10 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="" />
 	<link type="text/css" rel="stylesheet" href="../css/style.css" />
-	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="../font/css/font-awesome.min.css">
+    <script type="text/javascript"  src="../js/javascript.js"></script>
 </head>
-
 <body>
 	<div class="wrapper">
 		<?php require('../layout/header.php') ?>
@@ -103,6 +102,21 @@
                             </div>
                         </div>
 
+                    </div>
+
+
+
+                    <div class="main-category__sidebar--slideranger">
+                    <div class="title">
+                            <h3>PRICE RANGE</h3>
+                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </div>
+                    <input type="range" type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                 <div class="price">
+                 <p>0<span id="demo"></span></p>
+                 <p>0<span id="demo"></span></p>
+                 </div>   
+                    
                     </div>
 
 
@@ -320,7 +334,7 @@
 
                     </div>
                     <div class="reset"> <p>Reset Filters</p></div>
-</div>
+          </div>
 
 
                     <div class="main-category__content--product">

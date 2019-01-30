@@ -10,10 +10,10 @@
                 <h3>FREE SHIP ON ORDERS ABOVE 50$</h3>
                 <div class="header-nav__left">
                     <ul>
-                        <li><a>MY ACCOUT</a></li>
-                        <li><a>WISH LIST</a></li>
+                        <li><a href="http://localhost/page/my_account.php">MY ACCOUT</a></li>
+                        <li><a href="http://localhost/page/wish_list.php">WISH LIST</a></li>
                         <li><a>CHECKOUT</a></li>
-                        <li><a>LOG IN</a></li>
+                        <li><a href="http://localhost/page/login.php">LOG IN</a></li>
                     </ul>
                 </div>
                 <div class="header-nav__cart-top">

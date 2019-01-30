@@ -1,0 +1,142 @@
+.my-account__title-top {
+  text-align: center;
+  margin-bottom: 20px; }
+  .my-account__title-top h1 {
+    margin: 0;
+    font-weight: normal;
+    font-family: serif;
+    font-size: 20px; }
+.my-account__detail-account {
+  border: 1px solid #ddd; }
+  .my-account__detail-account .title {
+    margin-bottom: 30px;
+    display: flex;
+    border-bottom: 1px solid #ddd; }
+    .my-account__detail-account .title h3 {
+      font-size: 13px;
+      font-weight: normal;
+      font-family: sans-serif;
+      flex-grow: 1;
+      text-align: center;
+      padding: 15px 0; }
+      .my-account__detail-account .title h3:not(:last-child) {
+        border-right: 1px solid #ddd; }
+  .my-account__detail-account .order-content {
+    margin-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+    .my-account__detail-account .order-content__box-order {
+      margin-bottom: 35px; }
+      .my-account__detail-account .order-content__box-order .box-number {
+        width: 30%;
+        display: flex;
+        align-items: center; }
+      .my-account__detail-account .order-content__box-order .box-date {
+        width: 20%; }
+      .my-account__detail-account .order-content__box-order .box-status {
+        width: 20%; }
+      .my-account__detail-account .order-content__box-order .box-total {
+        width: 15%; }
+      .my-account__detail-account .order-content__box-order .box-detail {
+        width: 15%; }
+      .my-account__detail-account .order-content__box-order .title-order {
+        margin-bottom: 15px;
+        display: flex; }
+        .my-account__detail-account .order-content__box-order .title-order__number h4 {
+          padding-left: 25px; }
+        .my-account__detail-account .order-content__box-order .title-order h4 {
+          font-size: 12px;
+          font-weight: normal;
+          margin: 0; }
+      .my-account__detail-account .order-content__box-order .order-row1 {
+        display: flex;
+        background-color: #eee;
+        padding: 8px 0;
+        margin-bottom: 10px; }
+        .my-account__detail-account .order-content__box-order .order-row1 * {
+          display: flex;
+          align-items: center; }
+        .my-account__detail-account .order-content__box-order .order-row1 p {
+          font-size: 13px; }
+        .my-account__detail-account .order-content__box-order .order-row1 .box-number p {
+          padding-left: 25px; }
+        .my-account__detail-account .order-content__box-order .order-row1 .box-detail {
+          position: relative; }
+          .my-account__detail-account .order-content__box-order .order-row1 .box-detail a {
+            text-decoration: none;
+            font-size: 13px;
+            color: #ffff;
+            background-color: #000f;
+            width: 100%;
+            position: absolute;
+            padding: 8px;
+            display: flex;
+            justify-content: center; }
+      .my-account__detail-account .order-content__box-order .row-bottom {
+        justify-content: space-between; }
+    .my-account__detail-account .order-content__detail-product {
+      margin: 0 auto;
+      width: 80%; }
+      .my-account__detail-account .order-content__detail-product .product {
+        width: 40%; }
+      .my-account__detail-account .order-content__detail-product .price {
+        width: 20%; }
+      .my-account__detail-account .order-content__detail-product .quantity {
+        width: 20%; }
+      .my-account__detail-account .order-content__detail-product .amount {
+        width: 20%; }
+      .my-account__detail-account .order-content__detail-product .title-product {
+        display: flex;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd; }
+        .my-account__detail-account .order-content__detail-product .title-product h4 {
+          margin: 0;
+          font-size: 13px;
+          font-weight: normal; }
+      .my-account__detail-account .order-content__detail-product .product-content {
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd; }
+        .my-account__detail-account .order-content__detail-product .product-content p {
+          font-size: 13px; }
+      .my-account__detail-account .order-content__detail-product .total {
+        width: 40%;
+        margin-left: 60%;
+        margin-bottom: 20px; }
+        .my-account__detail-account .order-content__detail-product .total * {
+          display: flex;
+          justify-content: space-between; }
+        .my-account__detail-account .order-content__detail-product .total p {
+          font-size: 13px;
+          margin-bottom: 10px; }
+        .my-account__detail-account .order-content__detail-product .total__gift {
+          border-bottom: 1px solid #ddd; }
+        .my-account__detail-account .order-content__detail-product .total__pay {
+          margin-top: 10px; }
+          .my-account__detail-account .order-content__detail-product .total__pay p {
+            font-weight: bold; }
+      .my-account__detail-account .order-content__detail-product .info {
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        margin-bottom: 50px; }
+        .my-account__detail-account .order-content__detail-product .info .info-text p {
+          font-size: 13px;
+          font-weight: bold;
+          margin-bottom: 10px; }
+          .my-account__detail-account .order-content__detail-product .info .info-text p span {
+            font-weight: normal; }
+
+@media only screen and (min-width: 760px) and (max-width: 1360px) {
+  .my-account__detail-account .order-content {
+    width: 90%; } }
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .my-account__detail-account .title {
+    display: block; }
+    .my-account__detail-account .title h3 {
+      border-bottom: 1px solid #ddd; }
+  .my-account__detail-account .order-content {
+    width: 100%; } }
+
+/*# sourceMappingURL=my_account.css.map */

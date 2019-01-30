@@ -1,4 +1,3 @@
-
 // content //
 
 .cart-top {
@@ -52,7 +51,7 @@
           bottom: 0;
           padding-bottom: 15px;
           color: #000f;
-    font-weight: normal;
+          font-weight: normal;
         }
       }
       .avt-close {
@@ -63,6 +62,7 @@
       width: 20%;
       p {
         padding: 15px 0 0 30px;
+        font-size: 13px;
       }
     }
     &--quantity {
@@ -72,9 +72,10 @@
         padding: 15px 0 0 30px;
         .quantity-number {
           p {
-            padding: 5px 15px;
+            padding: 5px 18px;
             background-color: white;
             font-size: 12px;
+            border: 1px solid #888;
           }
         }
         .quantity-icon {
@@ -89,7 +90,7 @@
           font-size: 12px;
           padding: 5px 0 0 15px;
           color: #000f;
-    font-weight: normal;
+          font-weight: normal;
         }
       }
     }
@@ -97,160 +98,163 @@
       width: 20%;
       p {
         padding: 15px 0 0 30px;
+        font-size: 13px;
       }
     }
   }
-  &__mbproduct{
+  &__mbproduct {
     display: none;
   }
 }
-.cart-get{
-
+.cart-get {
   &__pay {
     h3 {
-      margin: 0;
       font-size: 13px;
-      padding-bottom: 15px;
+      margin-bottom: 0 0 10px 0;
+      font-weight: normal;
+      font-family: sans-serif;
     }
     display: flex;
     margin-top: 20px;
-.group-pay{width: 65%;
+    .group-pay {
+      width: 65%;
 
-  .pay-top{display: flex;
-    &__delivery {
-      border: 1px solid #888;
-      width: 60%;
-    padding: 15px 20px;
-      h3 {
-        span {
-          display: block;
-          font-size: 11px;
-          font-weight: normal;
-          line-height: 30px;
+      .pay-top {
+        display: flex;
+        margin-bottom: 30px;
+        &__delivery {
+          border: 1px solid #888;
+          width: 60%;
+          padding: 15px 20px;
+          h3 {
+            span {
+              display: block;
+              font-size: 11px;
+              font-weight: normal;
+              line-height: 30px;
+            }
+          }
+          select {
+            width: 100%;
+            height: 30px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+          }
+          .get-quote {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+              width: 45%;
+              height: 25px;
+              font-size: 12px;
+              text-indent: 10px;
+            }
+            a {
+              background: #000f;
+
+              font-size: 10px;
+              text-decoration: none;
+              color: #fff;
+              padding: 10px 20px;
+            }
+          }
+        }
+        &__voucher {
+          margin: 0px 15px;
+          width: 40%;
+          .voucher-seach {
+            border: 1px solid;
+            padding: 15px 20px;
+            p {
+              display: flex;
+              input {
+                height: 25px;
+                text-indent: 10px;
+                width: 100%;
+              }
+              i {
+                margin: 6px 0 0 -15px;
+              }
+            }
+          }
+          .voucher-help {
+            padding: 20px 20px;
+            p {
+              margin: 0;
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
         }
       }
-      select {
-        width: 100%;
-        height: 30px;
-        border-radius: 15px;
-        margin-bottom: 10px;
-      }
-      .get-quote {
+
+      &__check {
         display: flex;
         justify-content: space-between;
-
-        input {
-          width: 45%;
-          height: 25px;
-          font-size: 12px;
-          text-indent: 10px;
-        }
         a {
-          background: #000f;
-
-          font-size: 10px;
+          font-size: 13px;
+        }
+        .continue {
+          border: 1px solid #888;
+        }
+        a:last-child {
+          background-color: #ffff;
+          color: #000f;
           text-decoration: none;
-          color: #fff;
-          padding: 10px 20px;
+          padding: 5px 10px;
+          width: 50%;
+          text-align: center;
+          margin-right: 30px;
         }
       }
     }
-    &__voucher {
-      margin: 0px 15px;
-      width: 40%;
-      .voucher-seach {
-        border: 1px solid;
-        padding: 15px 20px;
-        p {
-          display: flex;
-          input {
-            height: 25px;
-            text-indent: 10px;
-            width: 100%;
-          }
-          i {
-            margin: 6px 0 0 -15px;
-          }
+
+    .group-pay-right {
+      width: 35%;
+
+      &__total {
+        padding: 15px 30px;
+        h3 {
+          padding: 0;
         }
-      }
-      .voucher-help {
-        padding: 20px 20px;
         p {
           margin: 0;
           font-size: 13px;
-          line-height: 20px;
+        }
+        .row-total {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 20px;
+        }
+        .total-tax {
+          padding-top: 25px;
+          border-top: 1px solid;
+        }
+      }
+
+      &__check {
+        display: flex;
+        justify-content: center;
+        a {
+          font-size: 13px;
+        }
+        .continue {
+          border: 1px solid #888;
+          display: none;
+        }
+        a:last-child {
+          padding: 5px 10px;
+          width: 80%;
+          text-align: center;
+          background-color: #000f;
+          color: #ffff;
+          text-decoration: none;
         }
       }
     }
   }
-
-
-    &__check {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 30px;
-      a {
-        padding: 5px 80px;
-        font-size: 13px;
-      }
-      .continue {
-        border: 1px solid #888;
-      }
-      a:last-child {
-        background-color: #000f;
-        color: #ffff;
-        text-decoration: none;
-        padding: 5px 110px;
-        margin-right: 30px;
-      }
-    }
-  }
-
-.group-pay-right{width: 35%;
-
-    &__total {
-      padding: 15px 30px;
-      h3 {
-        padding: 0;
-      }
-      p {
-        margin: 0;
-      }
-      .row-total {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 20px;
-      }
-      .total-tax {
-        padding-top: 25px;
-        border-top: 1px solid;
-      }
-    }
-  
-
-  &__check {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    a {
-      padding: 5px 80px;
-      font-size: 13px;
-    }
-    .continue {
-      border: 1px solid #888;
-      display: none;
-    }
-    a:last-child {
-      background-color: #000f;
-      color: #ffff;
-      text-decoration: none;
-      padding: 5px 110px;
-    }
-  }
 }
-}
-}
-
 
 //end desktop //
 
@@ -259,141 +263,185 @@
   .container {
     width: 100%;
   }
-  .cart-top{
-  &__product{
-    display: none;
-  }
-
-    &__mbproduct{
-    display: block;
-
-
-    display: flex;
-
-    h3 {
-      margin: 0;
-      font-weight: normal;
-      font-size: 13px;
-      padding: 15px 0 15px 30px;
+  .cart-top {
+    &__product {
+      display: none;
     }
-    p {
-      margin: 0;
-    }
-    .product-row-1 {
+
+    &__mbproduct {
+      display: block;
+
       display: flex;
-      background-color: #eee;
-      height: 145px;
-      margin-bottom: 15px;
-      position:relative;
-    }
-    &--avatar {
-      width: 100%;
 
-      img {
+      h3 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 13px;
+        padding: 15px 0 15px 30px;
+      }
+      p {
+        margin: 0;
+      }
+      .product-row-1 {
         display: flex;
         background-color: #eee;
-        padding: 15px 15px 15px 30px;
-      }
-      .avt-text {
-        padding: 15px;
-        font-size: 12px;
-        font-weight: bold;
+        height: 145px;
+        margin-bottom: 15px;
         position: relative;
-        p {
-          margin: 0;
-          padding-bottom: 10px;
-        }
-        span{
-          margin-right: 15px;
-        }
-        a {
-          position: absolute;
-          bottom: 0;
-          padding-bottom: 15px;
-          color: #000f;
-    font-weight: normal;
-        }
-.quantity-mb{
-  display: flex;
-  margin-top:10px;    align-items: center;    justify-content: space-between;
-  p{
-    padding:0;
-  }
-  .number{
-    padding: 6px 10px;
-    border: 1px solid #888;
-    background: #ffff;
-  }
-}
-
       }
-      .avt-close {
-        padding-top: 15px;
-        right:10px;position: absolute;
-      }
-    }
-    &--price {
-      width: 20%;
-      p {
-        padding: 15px 0 0 30px;
-      }
-    }
-    
-    }
-
-  }
-  
-}
-@media only screen and (min-width: 760px) and (max-width: 1024px) {
-  .cart-top{
-    margin-top: 30px!important;
-  }
-  .cart-get{
-    &__pay{
-      .group-pay{    width: 50%;
-     .pay-top{
-       display: block;
-       &__delivery{
-        width: auto;
-       }
-      &__voucher{
+      &--avatar {
         width: 100%;
-        margin: 10px 0 0 0;
 
-        .voucher-help{
-          display: none;
+        img {
+          display: flex;
+          background-color: #eee;
+          padding: 15px 15px 15px 30px;
         }
-
-      }
-    }
-      &__check{
-        display: none;
-      }
-     }
-
-        
-      }
-      .group-pay-right{
-        width: 50%;
-        &__check{
-          display: block;
-          margin: 0;
-          padding: 30px;
-
-          .continue{
-            display: block;
+        .avt-text {
+          padding: 15px;
+          font-size: 12px;
+          font-weight: bold;
+          position: relative;
+          p {
+            margin: 0;
+            padding-bottom: 10px;
           }
-          a{
-            display: block;
-            &:last-child{
-              margin-top: 10px;
+          span {
+            margin-right: 15px;
+          }
+          a {
+            position: absolute;
+            bottom: 0;
+            padding-bottom: 15px;
+            color: #000f;
+            font-weight: normal;
+          }
+          .quantity-mb {
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+            justify-content: space-between;
+            p {
+              padding: 0;
+            }
+            .number {
+              padding: 6px 10px;
+              border: 1px solid #888;
+              background: #ffff;
             }
           }
         }
+        .avt-close {
+          padding-top: 15px;
+          right: 10px;
+          position: absolute;
+        }
       }
-      
+      &--price {
+        width: 20%;
+        p {
+          padding: 15px 0 0 30px;
+        }
+      }
     }
   }
+  .cart-get {
+    &__pay {
+      display: block;
+      .group-pay {
+        width: 100%;
+        display: block;
+        .pay-top {
+          margin-bottom: 30px;
+          display: block;
+          &__delivery {
+            width: auto;
+          }
+          &__voucher {
+            width: 100%;
+            margin: 0;
+            padding-top: 10px;
+            .voucher-help {
+              display: none;
+            }
+          }
+        }
+        &__check {
+          display: none;
+        }
+      }
+      .group-pay-right {
+        width: 100%;
+        &__check {
+          a {
+            width: 50%;
+            padding: 8px !important;
+            text-align: center;
+            &:last-child{
+              width: 50%;
+            }
+          }
+          .continue {
+            display: block;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .cart-top {
+    margin-top: 30px !important;
+  }
+  .cart-get {
+    &__pay {
+      .group-pay {
+        width: 50%;
+        .pay-top {
+          display: block;
+          &__delivery {
+            width: auto;
+          }
+          &__voucher {
+            width: 100%;
+            margin: 10px 0 0 0;
+
+            .voucher-help {
+              display: none;
+            }
+          }
+        }
+        &__check {
+          display: none;
+        }
+      }
+    }
+    .group-pay-right {
+      width: 50%;
+      &__check {
+        display: block;
+        margin: 0;
+        padding: 0 30px;
+
+        .continue {
+          display: block;
+          padding: 5px 10px;
+        }
+        a {
+          text-align: center;
+          display: block;
+         
+          &:last-child {
+            width: 100%;
+            margin-top: 10px;
+            
+          }
+        }
+      }
+    }
+  }
+}
 
 //header//
 // .header {

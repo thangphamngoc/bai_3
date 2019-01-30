@@ -16,6 +16,7 @@
 		<?php require('../layout/header.php') ?>
 		<div class="main-content">
 
+
 		<?php require('../layout/header_top.php') ?>
 		<?php require('../layout/header_menu.php') ?>
         <?php require('../layout/navigation.php') ?>
@@ -138,6 +139,8 @@
 								<p>DETAILED SWING DRESS</p>
 								<span>COLOR: BLUE</span>
 								<span>SIZE: 12</span>
+
+								
 							<div class="quantity-mb">
 								<p>QTY:</p>
 								<p class="number">1</p>
@@ -155,7 +158,7 @@
 					</div>
 				</div>
             </div>
-        </div>
+       
 
 
 
@@ -163,12 +166,12 @@
 
 
 
-<div class="container cart-get">
+           <div class="container cart-get">
 				<div class="cart-get__pay">
 
-<div class="group-pay">
+              <div class="group-pay">
 
-<div class="pay-top">
+               <div class="pay-top">
 					<div class="pay-top__delivery">
 						<h3>ESTIMATE DELIVERY<span>Enter your destination to get a estimate</span></h3>
 
@@ -218,7 +221,7 @@
 							<p><i class="fa fa-usd" aria-hidden="true"></i>825.000</p>
 						</div>
 						<div class="total-tax row-total">
-							<h3>TOTAL INCLUDUNG TAX</h3>
+							<h3>TOTAL<br>INCLUDUNG TAX</h3>
 							<p><i class="fa fa-usd" aria-hidden="true"></i>825.000</p>
 						</div>
 
@@ -230,7 +233,7 @@
 			
 </div>
 </div>
-		
+	</div>	
 
 
         <?php require('../layout/top_brands.php') ?>

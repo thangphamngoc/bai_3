@@ -1,0 +1,123 @@
+.login-conten {
+  &__form-login {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #888;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #888;
+      padding: 20px;
+      margin: 0;
+      font-size: 20px;
+      font-weight: normal;
+      font-family: serif;
+    }
+    .form-group {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      .input-box {
+        margin-bottom: 15px;
+        input {
+          text-indent: 5px;
+          border: 1px solid #888;
+          width: 100%;
+          padding: 5px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+      .title-box {
+        margin-bottom: 15px;
+        h3 {
+          font-size: 13px;
+          font-family: sans-serif;
+          color: #3e3030;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 13px;
+          font-weight: bold;
+        }
+      }
+      .registered {
+        width: 40%;
+        &__title {
+          p {
+            span {
+              font-weight: normal;
+              font-size: 12px;
+            }
+          }
+        }
+        &__button-login {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .bt-lg {
+            text-decoration: none;
+            font-size: 12px;
+            padding: 8px 35px;
+            color: #fff;
+            background-color: #000f;
+          }
+          .forgot {
+            font-size: 12px;
+            color: #000f;
+          }
+        }
+      }
+      .new-customers {
+        width: 40%;
+        &__button-creat {
+          display: flex;
+          text-align: center;
+          a {
+            text-decoration: none;
+            font-size: 12px;
+            padding: 8px 10px;
+            width: 100%;
+            color: #ffff;
+            background-color: #000f;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and(min-width: 760px) and (max-width: 1260px) {
+  .login-conten {
+    &__form-login {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and(min-width: 320px) and (max-width: 760px) {
+  .login-conten {
+    &__form-login {
+      width: 100%;
+      .form-group {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        .registered {
+          width: 100%;
+          padding: 30px 15px;
+
+        }
+        .new-customers {
+          width: 100%;
+          padding: 30px 15px;
+          margin-bottom: 30px;
+          border-bottom: 1px solid #888;
+          margin-bottom:0; 
+        }
+      }
+    }
+  }
+}

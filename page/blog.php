@@ -24,10 +24,10 @@
 				<div class="content__blog">
 					<div class="content__blog--box">
 						<div class="title">
-							<h3>what’s the best beauty look to wear with a metallic?</h3>
+						<a href="http://localhost/page/blog_post.php"><h3>what’s the best beauty look to wear with a metallic?</h3></a>
 							<h4 class="day">11January 2015</h4>
 						</div>
-						<img src="../img/img1.jpg">
+						<a href="http://localhost/page/blog_post.php"><img src="../img/img1.jpg"></a>
 						<div class="box-content">
 							<p>Every color has a personality, an emotion that you channel while wearing it. Red is
 								exciting—a color to evoke your inner daring. Then, there’s pink: safe, benign, and obviously pretty. Or is it?
@@ -37,7 +37,7 @@
 					<div class="content__blog--box">
 						<div class="title">
 							<h3>what’s the best beauty look to wear with a metallic?</h3>
-							<h4 class="day">11January 2015</h4>
+							<p class="day">11January 2015</p>
 						</div>
 						<img src="../img/img2.jpg">
 						<div class="box-content">

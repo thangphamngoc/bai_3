@@ -3,6 +3,7 @@
   justify-content: space-between;
   color: #888;
   font-size: 10px;
+  position: relative;
   &__right {
     flex-grow: 1;
     ul {
@@ -19,87 +20,89 @@
     }
   }
   h3 {
-    flex-grow: 1;
-    text-align: center;
     color: #ffff;
-    margin: 10px 0 0 0;
-    font-family: unset;
+    top: 10px;
+    position: absolute;
+    font-family: inherit;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   &__left {
     ul {
       display: flex;
-
       li {
         padding: 0px 10px;
         list-style: none;
         border-right: 1px solid #6d5d5d;
+        cursor: pointer;
         &:last-child {
           border: none;
+          
+        }
+        a{
+          text-decoration: none;
+          color: #888;
+          padding: 6px 0;
+
         }
       }
     }
   }
-  &__cart-top{
+  &__cart-top {
     display: none;
   }
 }
-@media only screen and(min-width: 760px) and (max-width: 1028px) {
-  .header-nav {width: 98%;
-    &__right{
-    
-      ul{
-        li:first-child{
+@media only screen and(min-width: 760px) and (max-width: 1128px) {
+  .header-nav {
+    width: 98%;
+    &__right {
+      ul {
+        li:first-child {
           display: none;
         }
-        
       }
-    
-  }
+    }
     h3 {
       text-align: right;
     }
     &__left {
-    
-          display: none;
-    
+      display: none;
     }
-    &__cart-top{
+    &__cart-top {
       display: none;
     }
   }
 }
-@media only screen and(min-width: 320px) and (max-width:759px) {
-  .header-nav {width: 98%;
-    &__right{
-    
-      ul{
-        li:first-child{
+@media only screen and(min-width: 320px) and (max-width: 759px) {
+  .header-nav {
+    width: 98%;
+    &__right {
+      ul {
+        li:first-child {
           display: none;
         }
-        
       }
-    
-  }
+    }
     h3 {
       display: none;
     }
     &__left {
-    
-          display: none;
-    
+      display: none;
     }
-    &__cart-top{
+    &__cart-top {
       display: block;
       margin-top: 6px;
       color: #fff;
-      a{
-        i{    border: 1px solid #ffff;
+      a {
+        i {
+          border: 1px solid #ffff;
           padding: 5px;
           border-radius: 50%;
-          margin-right: 5px;}
+          margin-right: 5px;
+        }
       }
     }
-    
   }
 }
-

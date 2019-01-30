@@ -1,0 +1,206 @@
+.my-account {
+  &__title-top {
+    text-align: center;
+    margin-bottom: 20px;
+    h1 {
+      margin: 0;
+      font-weight: normal;
+      font-family: serif;
+      font-size: 20px;
+    }
+  }
+  &__detail-account {
+    border: 1px solid #ddd;
+    .title {
+      margin-bottom: 30px;
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      h3 {
+        font-size: 13px;
+        font-weight: normal;
+        font-family: sans-serif;
+        flex-grow: 1;
+        text-align: center;
+        padding: 15px 0;
+        &:not(:last-child) {
+          border-right: 1px solid #ddd;
+        }
+      }
+    }
+    .order-content {
+      margin-bottom: 30px;
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    &__box-order {
+        margin-bottom: 35px;
+        .box-number {
+          width: 30%;
+          display: flex;
+          align-items: center;
+        }
+        .box-date {
+          width: 20%;
+        }
+        .box-status {
+          width: 20%;
+        }
+        .box-total {
+          width: 15%;
+        }
+        .box-detail {
+          width: 15%;
+        }
+        .title-order {
+          margin-bottom: 15px;
+          display: flex;
+          &__number {
+            h4 {
+              padding-left: 25px;
+            }
+          }
+          h4 {
+            font-size: 12px;
+            font-weight: normal;
+            margin: 0;
+          }
+        }
+        .order-row1 {
+          display: flex;
+          background-color: #eee;
+          padding: 8px 0;
+          margin-bottom: 10px;
+          * {
+            display: flex;
+            align-items: center;
+          }
+          p {
+            font-size: 13px;
+          }
+
+          .box-number {
+            p {
+              padding-left: 25px;
+            }
+          }
+          .box-detail {
+            position: relative;
+            a {
+              text-decoration: none;
+              font-size: 13px;
+              color: #ffff;
+              background-color: #000f;
+              width: 100%;
+              position: absolute;
+              padding: 8px;
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+        .row-bottom {
+          justify-content: space-between;
+        }
+      }
+      &__detail-product {
+        margin: 0 auto;
+        width: 80%;
+        .product {
+          width: 40%;
+        }
+        .price {
+          width: 20%;
+        }
+        .quantity {
+          width: 20%;
+        }
+        .amount {
+          width: 20%;
+        }
+        .title-product {
+          display: flex;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #ddd;
+          h4 {
+            margin: 0;
+            font-size: 13px;
+            font-weight: normal;
+          }
+        }
+        .product-content {
+          margin-bottom: 20px;
+          display: flex;
+          padding: 10px 0;
+          border-bottom: 1px solid #ddd;
+          p {
+            font-size: 13px;
+          }
+        }
+        .total {
+          width: 40%;
+          margin-left: 60%;
+          margin-bottom: 20px;
+          * {
+            display: flex;
+            justify-content: space-between;
+          }
+          p {
+            font-size: 13px;
+            margin-bottom: 10px;
+          }
+          &__gift {
+            border-bottom: 1px solid #ddd;
+          }
+          &__pay {
+            margin-top: 10px;
+            p {
+              font-weight: bold;
+            }
+          }
+        }
+        .info {
+          padding-top: 20px;
+          border-top: 1px solid #ddd;
+          margin-bottom: 50px;
+          .info-text {
+            p {
+              font-size: 13px;
+              font-weight: bold;
+              margin-bottom: 10px;
+              span {
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and(min-width: 760px) and (max-width: 1360px) {
+    .my-account{
+        &__detail-account{
+            .order-content{
+                width: 90%;
+            }
+        }
+    }
+  }
+
+  @media only screen and(min-width: 320px) and (max-width: 760px) {
+    .my-account{
+        &__detail-account{
+            .title{
+                display: block;
+                h3{
+                    border-bottom: 1px solid #ddd;
+                }
+            }
+            .order-content{
+                width: 100%;
+            }
+        }
+    }
+
+  }

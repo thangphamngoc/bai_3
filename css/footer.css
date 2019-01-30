@@ -6,6 +6,10 @@
   justify-content: space-between;
   border-bottom: 1px solid #eee;
   padding-bottom: 5px; }
+  .footer-content p {
+    margin: 10px 0; }
+  .footer-content h3 {
+    margin: 13px 0; }
   .footer-content h3 {
     font-size: 13px;
     padding: 5px 0px;
@@ -39,6 +43,10 @@
   display: flex;
   justify-content: space-between;
   padding: 15px 0px; }
+  .footer-connect p {
+    margin: 10px 0; }
+  .footer-connect h3 {
+    margin: 10px 0; }
   .footer-connect h3 {
     font-size: 13px; }
   .footer-connect__form {
@@ -52,7 +60,7 @@
       text-indent: 5px;
       width: 235px; }
     .footer-connect__form i {
-      margin: 4px 0px 0px -15px;
+      margin: 2px 0px 0px -15px;
       color: #888;
       font-size: 30px; }
   .footer-connect__connect-us {
@@ -63,7 +71,6 @@
     .footer-connect__connect-us i {
       padding: 4px 6px;
       background-color: #333;
-      color: baclk;
       color: #000000;
       border-radius: 50%;
       font-size: 12px; }
@@ -73,6 +80,10 @@
 .footer-bottom {
   display: flex;
   justify-content: space-between; }
+  .footer-bottom p {
+    margin: 10px 0; }
+  .footer-bottom h3 {
+    margin: 13px 0; }
   .footer-bottom__left p {
     text-transform: uppercase;
     font-size: 12px;

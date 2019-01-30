@@ -7,7 +7,7 @@
 						<a>
 							<i class="fa fa-search" aria-hidden="true"></i>
 							<span>SEARCH</span></a>
-						<a>
+						<a href="http://localhost/page/cart.php">
 							<i class="fa fa-shopping-bag" aria-hidden="true"></i>
 							</span>CART</span>
 						</a>

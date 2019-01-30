@@ -1,11 +1,13 @@
+.blog-post .content__blog--box {
+  border: 0; }
+
 .content {
   display: flex; }
   .content__blog {
     width: 75%;
     padding: 0 35px 0 0; }
     .content__blog--box {
-      padding: 20px 0px;
-      border-bottom: 0 !important; }
+      padding: 20px 0px; }
       .content__blog--box .title {
         width: 50%; }
         .content__blog--box .title h3 {
@@ -22,7 +24,7 @@
         height: 360px; }
       .content__blog--box .box-content p {
         color: #c2c2c2;
-        font-size: 13px;
+        font-size: 15 px;
         line-height: 20px; }
       .content__blog--box .box-content br {
         margin-bottom: 20px; }
@@ -38,14 +40,16 @@
     .content__blog--reviews {
       margin-top: 50px; }
       .content__blog--reviews h3 {
-        font-weight: normal; }
+        font-weight: normal;
+        margin-bottom: 10px; }
       .content__blog--reviews .box-reviews {
         background-color: #eee;
         padding: 20px;
         margin-bottom: 10px; }
         .content__blog--reviews .box-reviews h4 {
           margin: 0;
-          font-size: 13px; }
+          font-size: 13px;
+          margin-bottom: 10px; }
         .content__blog--reviews .box-reviews .content-reviews p {
           font-size: 13px;
           color: #888; }
@@ -58,7 +62,8 @@
           .content__blog--reviews .box-reviews .day-rep .rep {
             font-size: 13px; }
       .content__blog--reviews .box-rep {
-        width: 85%; }
+        width: 85%;
+        margin: auto 15%; }
       .content__blog--reviews .write-review {
         border: 1px solid black;
         margin-top: 30px;
@@ -76,40 +81,43 @@
         .content__blog--reviews .write-review .write-text input {
           width: 100%;
           height: 65px; }
-        .content__blog--reviews .write-review button {
-          border: none;
-          padding: 9px;
-          font-size: 12px;
-          background-color: #000000;
-          color: #ffff;
-          margin-top: 15px; }
-    .content__blog__sidebar {
-      width: 25%;
-      padding: 20px 0px; }
-      .content__blog__sidebar--categories {
-        border: 1px solid #eee;
-        padding: 20px; }
-        .content__blog__sidebar--categories h3 {
-          font-weight: 100;
-          font-size: 15px; }
-        .content__blog__sidebar--categories ul {
-          padding: 0; }
-          .content__blog__sidebar--categories ul li {
-            list-style: none;
-            padding: 8px 0;
-            text-transform: uppercase;
-            font-size: 13px; }
-        .content__blog__sidebar--categories .icon-toggle {
-          display: none; }
-      .content__blog__sidebar--labels {
-        border: 1px solid #eee;
-        margin-top: 20px;
-        padding: 20px; }
-        .content__blog__sidebar--labels p {
-          font-size: 13px;
-          line-height: 18px; }
-          .content__blog__sidebar--labels p span {
-            font-size: 16px; }
+        .content__blog--reviews .write-review .submit {
+          margin-top: 15px;
+          display: flex;
+          justify-content: flex-end; }
+          .content__blog--reviews .write-review .submit a {
+            padding: 8px 15px;
+            font-size: 12px;
+            background-color: #000000;
+            color: #ffff; }
+  .content__sidebar {
+    width: 25%;
+    padding: 20px 0px; }
+    .content__sidebar .blog-post-sidebar {
+      border: 1px solid #eee;
+      padding: 20px; }
+      .content__sidebar .blog-post-sidebar h3 {
+        font-weight: 100;
+        font-size: 15px; }
+      .content__sidebar .blog-post-sidebar ul {
+        padding: 0; }
+        .content__sidebar .blog-post-sidebar ul li {
+          list-style: none;
+          padding: 8px 0;
+          text-transform: uppercase;
+          font-size: 13px; }
+      .content__sidebar .blog-post-sidebar .icon-toggle {
+        display: none; }
+    .content__sidebar--labels {
+      border: 1px solid #eee;
+      margin-top: 20px;
+      padding: 20px; }
+      .content__sidebar--labels .font12 {
+        font-size: 12px; }
+      .content__sidebar--labels .font18 {
+        font-size: 18px; }
+      .content__sidebar--labels .font12 {
+        font-size: 14px; }
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
   .content {
@@ -118,19 +126,19 @@
       width: 100%; }
       .content__sidebar--labels {
         display: none; }
-      .content__sidebar--categories {
+      .content__sidebar .blog-post-sidebar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px 5px 5px 15px; }
-        .content__sidebar--categories h3 {
+        .content__sidebar .blog-post-sidebar h3 {
           margin: 0; }
-        .content__sidebar--categories ul {
+        .content__sidebar .blog-post-sidebar ul {
           display: none; }
-        .content__sidebar--categories .icon-toggle {
+        .content__sidebar .blog-post-sidebar .icon-toggle {
           display: flex;
           font-size: 11px; }
-          .content__sidebar--categories .icon-toggle i {
+          .content__sidebar .blog-post-sidebar .icon-toggle i {
             padding: 3px;
             border: 1px solid #eee; }
     .content__blog {
@@ -149,19 +157,19 @@
       width: 100%; }
       .content__sidebar--labels {
         display: none; }
-      .content__sidebar--categories {
+      .content__sidebar .blog-post-sidebar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px 5px 5px 15px; }
-        .content__sidebar--categories h3 {
+        .content__sidebar .blog-post-sidebar h3 {
           margin: 0; }
-        .content__sidebar--categories ul {
+        .content__sidebar .blog-post-sidebar ul {
           display: none; }
-        .content__sidebar--categories .icon-toggle {
+        .content__sidebar .blog-post-sidebar .icon-toggle {
           display: flex;
           font-size: 11px; }
-          .content__sidebar--categories .icon-toggle i {
+          .content__sidebar .blog-post-sidebar .icon-toggle i {
             padding: 3px;
             border: 1px solid #eee; }
     .content__blog {

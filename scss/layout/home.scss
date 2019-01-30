@@ -47,7 +47,7 @@ ul {
     background-position: 50% 50%;
     transition: left 0s 0.75s;
     .slider-content {
-      transform: translateY(50%) translateX(20%);
+      transform: translateY(50%) translateX(10%);
       width: 100%;
       p {
         font-size: 15px;
@@ -267,7 +267,7 @@ ul {
     height: 260px;
     .slide {
       .slider-content {
-        transform: translateY(50%) translateX(20%);
+        transform: translateY(50%) translateX(10%);
         h3 {
           font-weight: normal;
           font-size: 30px;
@@ -296,12 +296,26 @@ ul {
     .slide {
       .slider-content {
         text-align: left;
+        transform: translateY(50%) translateX(50%);
+        width: 70%;
+        h3{
+          font-weight: normal;
+    font-size: 25px;
+        }
+        a{
+          font-size: 11px;
+          padding: 10px 10px;
+        }
+        p{
+          display: none;
+        }
       }
     }
   }
 
   .blog-hot {
     width: 75%!important;
+    
     &__hr-text {
       &::after {
         padding: 0 20px;
@@ -312,6 +326,7 @@ ul {
       &--box {
         display: flex;
         padding: 0 0 15px 0 !important;
+        
         img {
           width: 50%;
           height: 50%;
@@ -330,6 +345,7 @@ ul {
           .box-hot {
             width: 50%;
             margin: 0 auto;
+            margin-bottom: 20px;
             &:not(:last-child) {
               display: none;
             }

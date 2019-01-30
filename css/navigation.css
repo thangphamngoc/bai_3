@@ -1,12 +1,14 @@
 .navigation {
   border-top: 1px solid #eee;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 20px; }
   .navigation a {
     font-family: Arial;
     font-size: 12px;
-    padding: 5px 0; }
+    padding: 5px 0;
+    color: #888; }
     .navigation a i {
-      margin-right: 5px; }
+      margin-right: 10px; }
 
 /*# sourceMappingURL=navigation.css.map */

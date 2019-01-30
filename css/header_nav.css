@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   color: #888;
-  font-size: 10px; }
+  font-size: 10px;
+  position: relative; }
   .header-nav__right {
     flex-grow: 1; }
     .header-nav__right ul {
@@ -14,23 +15,31 @@
         .header-nav__right ul li i {
           padding: 0px 15px 5px 5px; }
   .header-nav h3 {
-    flex-grow: 1;
-    text-align: center;
     color: #ffff;
-    margin: 10px 0 0 0;
-    font-family: unset; }
+    top: 10px;
+    position: absolute;
+    font-family: inherit;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
   .header-nav__left ul {
     display: flex; }
     .header-nav__left ul li {
       padding: 0px 10px;
       list-style: none;
-      border-right: 1px solid #6d5d5d; }
+      border-right: 1px solid #6d5d5d;
+      cursor: pointer; }
       .header-nav__left ul li:last-child {
         border: none; }
+      .header-nav__left ul li a {
+        text-decoration: none;
+        color: #888;
+        padding: 6px 0; }
   .header-nav__cart-top {
     display: none; }
 
-@media only screen and (min-width: 760px) and (max-width: 1028px) {
+@media only screen and (min-width: 760px) and (max-width: 1128px) {
   .header-nav {
     width: 98%; }
     .header-nav__right ul li:first-child {
