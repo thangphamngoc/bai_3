@@ -23,6 +23,8 @@
       position: relative;
       margin-bottom: 10px;
       height: 145px; }
+    .wish-list__product .row-bottom {
+      margin-bottom: 0; }
     .wish-list__product .avatar {
       width: 40%; }
       .wish-list__product .avatar h3 {

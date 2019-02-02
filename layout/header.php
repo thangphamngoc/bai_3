@@ -12,7 +12,7 @@
                     <ul>
                         <li><a href="http://localhost/page/my_account.php">MY ACCOUT</a></li>
                         <li><a href="http://localhost/page/wish_list.php">WISH LIST</a></li>
-                        <li><a>CHECKOUT</a></li>
+                        <li><a href="http://localhost/page/check_out.php">CHECKOUT</a></li>
                         <li><a href="http://localhost/page/login.php">LOG IN</a></li>
                     </ul>
                 </div>

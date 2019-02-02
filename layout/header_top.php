@@ -1,7 +1,7 @@
 <div class="container header-top">
 				<div class="header-top__logo">
 					<div class="header-top__logo--text">
-						<h1>THE SHOP</h1>
+					<a href="http://localhost/page/home.php"><h1>THE SHOP</h1></a>
 					</div>
 					<div class="header-top__logo--right">
 						<a>

@@ -29,6 +29,9 @@
       height: 145px;
       margin-bottom: 15px;
     }
+    .row-bottom {
+      margin-bottom: 0;
+    }
     &--avatar {
       width: 40%;
 
@@ -164,8 +167,11 @@
           margin: 0px 15px;
           width: 40%;
           .voucher-seach {
-            border: 1px solid;
-            padding: 15px 20px;
+            border: 1px solid #888;
+            padding: 15px 20px 20px 20px;
+            h3 {
+              margin-bottom: 20px;
+            }
             p {
               display: flex;
               input {
@@ -267,12 +273,9 @@
     &__product {
       display: none;
     }
-
     &__mbproduct {
       display: block;
-
       display: flex;
-
       h3 {
         margin: 0;
         font-weight: normal;
@@ -288,6 +291,9 @@
         height: 145px;
         margin-bottom: 15px;
         position: relative;
+      }
+      .row-bottom{
+        margin-bottom: 0;
       }
       &--avatar {
         width: 100%;
@@ -377,7 +383,7 @@
             width: 50%;
             padding: 8px !important;
             text-align: center;
-            &:last-child{
+            &:last-child {
               width: 50%;
             }
           }
@@ -431,11 +437,10 @@
         a {
           text-align: center;
           display: block;
-         
+
           &:last-child {
             width: 100%;
             margin-top: 10px;
-            
           }
         }
       }

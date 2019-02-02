@@ -139,7 +139,7 @@ ul {
         width: 100%;
       }
       &:not(:last-child) {
-        padding-right: 15px;
+        margin-right: 15px;
       }
     }
   }
@@ -186,7 +186,7 @@ ul {
           width: 33.3%;
 
           &:not(:last-child) {
-            padding-right: 10px;
+            margin-right: 10px;
           }
           img {
             width: 100%;

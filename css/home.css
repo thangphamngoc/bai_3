@@ -115,7 +115,7 @@ ul {
       .blog-hot__new--box img {
         width: 100%; }
       .blog-hot__new--box:not(:last-child) {
-        padding-right: 15px; }
+        margin-right: 15px; }
   .blog-hot__popular {
     margin-top: 40px;
     display: flex; }
@@ -155,7 +155,7 @@ ul {
         .blog-hot__popular--produc-hot .popular-box .box-hot {
           width: 33.3%; }
           .blog-hot__popular--produc-hot .popular-box .box-hot:not(:last-child) {
-            padding-right: 10px; }
+            margin-right: 10px; }
           .blog-hot__popular--produc-hot .popular-box .box-hot img {
             width: 100%; }
           .blog-hot__popular--produc-hot .popular-box .box-hot .title {

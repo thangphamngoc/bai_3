@@ -21,6 +21,8 @@
       background-color: #eee;
       height: 145px;
       margin-bottom: 15px; }
+    .cart-top__product .row-bottom {
+      margin-bottom: 0; }
     .cart-top__product--avatar {
       width: 40%; }
       .cart-top__product--avatar img {
@@ -122,8 +124,10 @@
         margin: 0px 15px;
         width: 40%; }
         .cart-get__pay .group-pay .pay-top__voucher .voucher-seach {
-          border: 1px solid;
-          padding: 15px 20px; }
+          border: 1px solid #888;
+          padding: 15px 20px 20px 20px; }
+          .cart-get__pay .group-pay .pay-top__voucher .voucher-seach h3 {
+            margin-bottom: 20px; }
           .cart-get__pay .group-pay .pay-top__voucher .voucher-seach p {
             display: flex; }
             .cart-get__pay .group-pay .pay-top__voucher .voucher-seach p input {
@@ -207,6 +211,8 @@
       height: 145px;
       margin-bottom: 15px;
       position: relative; }
+    .cart-top__mbproduct .row-bottom {
+      margin-bottom: 0; }
     .cart-top__mbproduct--avatar {
       width: 100%; }
       .cart-top__mbproduct--avatar img {

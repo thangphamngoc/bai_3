@@ -47,7 +47,7 @@
 							</div>
 							
 						</div>
-						<div class="product-row-1">
+						<div class="product-row-1 row-bottom">
 						<div class="avt-close"><i class="fa fa-times" aria-hidden="true"></i></div>
 							<div class="avt">
 								<img src="../img/img_cproduc1.jpg">
@@ -70,7 +70,7 @@
 						<div class="product-row-1">
 							<p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
 						</div>
-						<div class="product-row-1">
+						<div class="product-row-1 row-bottom">
 							<p><i class="fa fa-usd" aria-hidden="true"></i>275.00</p>
 						</div>
 						</div>
@@ -85,7 +85,7 @@
 								<a href="#">ADD TO BAG</a>
 							</div>
 						</div>
-						<div class="product-row-1">
+						<div class="product-row-1 row-bottom">
 							<div class="quantity-text">
 								<div class="quantity-number">
 									<p>1</p>
