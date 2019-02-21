@@ -38,7 +38,8 @@
         &__zoom-img {
           width: 85%;
           img {
-            width: 100%;
+            text-align: center;
+            width: auto;
             height: 670px;
           }
         }
@@ -379,8 +380,10 @@
           &__zoom-img {
             width: 100%;
             margin: 0 0 5px 0;
+            text-align: center;
             img {
               height: 600px;
+              width: auto;
             }
           }
           &__view-img {
@@ -444,14 +447,17 @@
 
         padding: 0;
         .view-top {
-          flex-direction: column-reverse; width: 100%;
+          flex-direction: column-reverse;
+          width: 100%;
           margin: 0 auto;
           &__zoom-img {
             width: 100%;
             padding: 0;
+            text-align: center;
             margin: 0 0 5px 0;
             img {
               height: 430px;
+              width: auto;;
             }
           }
           &__view-img {
@@ -569,14 +575,17 @@
 
         padding: 0;
         .view-top {
-          flex-direction: column-reverse; width: 70%;
+          flex-direction: column-reverse;
+          width: 70%;
           margin: 0 auto;
           &__zoom-img {
             width: 100%;
             padding: 0;
+            text-align: center;
             margin: 0 0 5px 0;
             img {
               height: 430px;
+              width: auto;
             }
           }
           &__view-img {
