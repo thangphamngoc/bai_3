@@ -162,15 +162,18 @@
       border: 1px solid #eee;
       margin-top: 20px;
       padding: 20px;
-
-      .font12 {
+      p {
         font-size: 12px;
-      }
-      .font18 {
-        font-size: 18px;
-      }
-      .font12 {
-        font-size: 14px;
+        line-height: 22px;
+        .font12 {
+          font-size: 12px;
+        }
+        .font18 {
+          font-size: 18px;
+        }
+        .font12 {
+          font-size: 14px;
+        }
       }
     }
   }

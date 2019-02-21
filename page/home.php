@@ -103,14 +103,18 @@
                         <h3>FROM OUR BLOG</h3>
                         <div class="our-trend">
                             <div class="box-our">
+                                <div class="avartar">
                                 <img src="../img/img_hblog1.jpg" alt="">
+                                </div>
                                 <div class="our-text">
                                     <h3>BEST SUMMER TREND</h3>
                                     <p>WE KNOW WHAT NEW YOU NEDD THIS SUMMER </p>
                                 </div>
                             </div>
                             <div class="box-our">
+                            <div class="avartar">
                                 <img src="../img/img_hblog1.jpg" alt="">
+                            </div>
                                 <div class="our-text">
                                     <h3>BEST SUMMER TREND</h3>
                                     <p>WE KNOW WHAT NEW YOU NEDD THIS SUMMER</p>

@@ -21,34 +21,86 @@
         <div class="container detail-product">
             <div class="detail-product__review-content">
                 <div class="box-left">
-                    <div class="box-left__view-img">
-						<div class="icon">
-							<i class="fa fa-angle-up" aria-hidden="true"></i>
-							</div>
-							<img src="../img/img_zoom1.jpg" alt="">
-							<img src="../img/img_zoom1.jpg" alt="">
-							<img src="../img/img_zoom1.jpg" alt="">
-							<img src="../img/img_zoom1.jpg" alt="">
-							<div class="icon">
-							<i class="fa fa-angle-down" aria-hidden="true"></i>
-							</div>
-							<div class="seach">
-							<i class="fa fa-search-plus" aria-hidden="true"></i>
-							</div>
+
+
+                <div class="view-top">
+                    <div class="view-top__view-img">
+												<div class="icon">
+													<i class="fa fa-angle-up" aria-hidden="true"></i>
+													<i class="fa fa-angle-left" aria-hidden="true"></i>
+													</div>
+													<img src="../img/img_zoom1.jpg" alt="">
+													<img src="../img/img_zoom1.jpg" alt="">
+													<img src="../img/img_zoom1.jpg" alt="">
+													<img src="../img/img_zoom1.jpg" alt="">
+													<div class="icon">
+													<i class="fa fa-angle-down" aria-hidden="true"></i>
+													<i class="fa fa-angle-right" aria-hidden="true"></i>
+													</div>
+													<div class="seach">
+													<i class="fa fa-search-plus" aria-hidden="true"></i>
+													</div>
 						
-					</div>
-					<div class="box-left__zoom-img">
-						 <img src="../img/product0.jpg" alt="">
-					</div>
-                </div> 
-                <div class="box-right">
-					<div class="box-right__panigation-top">
-						<p>
-							<i class="fa fa-angle-left" aria-hidden="true"></i>
-							<span>2 OF 197</span>
-							<i class="fa fa-angle-right" aria-hidden="true"></i>
-						</p>
-					</div>
+					             </div>
+													<div class="view-top__zoom-img">
+														<img src="../img/product0.jpg" alt="">
+													</div>
+											</div>
+
+
+
+												<div class="related">
+													<div class="related__title">
+														<hr class="hr-text" data-content="RELATED PRODUCTS">
+														<div class="icon">
+															<i class="fa fa-angle-left" aria-hidden="true"></i>
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</div>
+													</div>
+													<div class="related__list-item">
+														<div class="item">
+															<div class="avatar">
+															<img src="../img/product1.jpg" alt="">
+															</div>
+															<h4>DETAILED SWING DRESS</h4>
+															<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
+															
+														</div>
+														<div class="item">
+															<div class="avatar">
+															<img src="../img/product1.jpg" alt="">
+															</div>
+															<h4>DETAILED SWING DRESS</h4>
+															<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
+															
+														</div>
+														<div class="item">
+															<div class="avatar">
+															<img src="../img/product1.jpg" alt="">
+															</div>
+															<h4>DETAILED SWING DRESS</h4>
+															<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
+															
+														</div>
+														<div class="item">
+															<div class="avatar">
+															<img src="../img/product1.jpg" alt="">
+															</div>
+															<h4>DETAILED SWING DRESS</h4>
+															<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
+															
+														</div>
+													</div>
+												</div>
+											</div> 
+										<div class="box-right">
+											<div class="box-right__panigation-top">
+														<p>
+															<i class="fa fa-angle-left" aria-hidden="true"></i>
+															<span>2 OF 197</span>
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</p>
+													</div>
 					<div class="box-right__title">
 						<div class="code">
 							<p>MU-4587-89</p>
@@ -134,54 +186,11 @@
 
 					</div>
 					</div>
-				</div> 
-            </div>
-            <div class="detail-product__related">
-				<div class="box-left">
-					<div class="box-left__title">
-						<hr class="hr-text" data-content="RELATED PRODUCTS">
-						<div class="icon">
-							<i class="fa fa-angle-left" aria-hidden="true"></i>
-							<i class="fa fa-angle-right" aria-hidden="true"></i>
-						</div>
-					</div>
-					<div class="box-left__list-item">
-						<div class="item">
-							<div class="avatar">
-							<img src="../img/product1.jpg" alt="">
-							</div>
-							<h4>DETAILED SWING DRESS</h4>
-							<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
-							
-						</div>
-						<div class="item">
-							<div class="avatar">
-							<img src="../img/product1.jpg" alt="">
-							</div>
-							<h4>DETAILED SWING DRESS</h4>
-							<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
-							
-						</div>
-						<div class="item">
-							<div class="avatar">
-							<img src="../img/product1.jpg" alt="">
-							</div>
-							<h4>DETAILED SWING DRESS</h4>
-							<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
-							
-						</div>
-						<div class="item">
-							<div class="avatar">
-							<img src="../img/product1.jpg" alt="">
-							</div>
-							<h4>DETAILED SWING DRESS</h4>
-							<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
-							
-						</div>
-					</div>
-				</div>
-				<div class="box-right">
-					<div class="box-right__reviews">
+				
+				
+					<div class="related">
+			
+					<div class="related__reviews">
 						<div class="title-top">
 							<h3>19 REVEIWS</h3>
 						</div>
@@ -242,16 +251,43 @@
 						</div>
 
 					</div>
-				</div>
-			</div>
-        </div>
+					<div class="related__product-mb">
+						<div class="title">
+							<hr class="hr-text" data-content="RELATED PRODUCTS">
+						</div>
+						<div class="list-item">
+							<div class="list-item__item">
+									<div class="avatar">
+										<img src="../img/product1.jpg" alt="">
+									</div>
+									<h4>DETAILED SWING DRESS</h4>
+									<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
+							</div>
+							<div class="list-item__item">
+									<div class="avatar">
+										<img src="../img/product1.jpg" alt="">
+									</div>
+									<h4>DETAILED SWING DRESS</h4>
+									<p><i class="fa fa-usd" aria-hidden="true"></i>1,875.00</p>
+							</div>
+						</div>
+					</div>
+					</div>
+					</div> 
+            </div>
+            
+			
+		   
+		</div>
+
 
 
         
         <?php require('../layout/top_brands.php') ?>
 		<?php require('../layout/footer.php') ?>
-		</div>
-	</div>
+
+</div>
+	
 </body>
 
 </html>

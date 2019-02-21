@@ -115,12 +115,15 @@
       border: 1px solid #eee;
       margin-top: 20px;
       padding: 20px; }
-      .content__sidebar--labels .font12 {
-        font-size: 12px; }
-      .content__sidebar--labels .font18 {
-        font-size: 18px; }
-      .content__sidebar--labels .font12 {
-        font-size: 14px; }
+      .content__sidebar--labels p {
+        font-size: 12px;
+        line-height: 22px; }
+        .content__sidebar--labels p .font12 {
+          font-size: 12px; }
+        .content__sidebar--labels p .font18 {
+          font-size: 18px; }
+        .content__sidebar--labels p .font12 {
+          font-size: 14px; }
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
   .content {

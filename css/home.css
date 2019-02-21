@@ -183,6 +183,8 @@ ul {
         .blog-hot__popular--our .our-trend .box-our {
           position: relative;
           margin-bottom: 15px; }
+          .blog-hot__popular--our .our-trend .box-our .avartar {
+            width: 65%; }
           .blog-hot__popular--our .our-trend .box-our .our-text {
             width: 50%;
             position: absolute;
@@ -209,7 +211,7 @@ ul {
           font-weight: bold;
           color: #4e4747; }
 
-@media only screen and (min-width: 760px) and (max-width: 1028px) {
+@media only screen and (min-width: 560px) and (max-width: 1100px) {
   .main-slider {
     width: 100%;
     height: 260px; }
@@ -227,7 +229,7 @@ ul {
       display: none; }
     .container .popular-box .box-hot {
       width: 50%; } }
-@media only screen and (min-width: 320px) and (max-width: 759px) {
+@media only screen and (min-width: 320px) and (max-width: 560px) {
   .main-slider .slide .slider-content {
     text-align: left;
     transform: translateY(50%) translateX(50%);
