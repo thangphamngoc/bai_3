@@ -355,7 +355,7 @@
                         </div>
                         <div class="row-product">
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
@@ -365,14 +365,14 @@
                                 </div>
                             </div>
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
                                 </div>
                             </div>
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
@@ -381,7 +381,7 @@
                         </div>
                         <div class="row-product">
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"></a> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
@@ -391,14 +391,14 @@
                                 </div>
                             </div>
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
                                 </div>
                             </div>
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
@@ -407,7 +407,7 @@
                         </div>
                         <div class="row-product">
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
@@ -417,7 +417,7 @@
                                 </div>
                             </div>
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
@@ -427,7 +427,7 @@
                                 </div>
                             </div>
                             <div class="detail-product">
-                                <img src="../img/img_hpproduc1.jpg" alt="">
+                                <a href="http://localhost/page/product.php"> <img src="../img/img_hpproduc1.jpg" alt=""></a>
                                 <div class="detail-text">
                                     <h4>DETAILED SWING DRESS</h4>
                                     <p><i class="fa fa-usd" aria-hidden="true"></i>1,87500</p>
